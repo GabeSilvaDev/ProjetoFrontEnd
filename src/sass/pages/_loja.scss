@@ -1,0 +1,49 @@
+body {
+    background-color: #DADCDE;
+}
+
+.ordenacao {
+    width: 230px;
+}
+
+.page-item .page-link {
+    background-color: #F2F2F5;
+    color: #CBCED1;
+    margin: 0 5px;
+}
+
+.page-item .page-link:hover {
+    background-color: $primary;
+    transition: .3s;
+}
+
+.ordenacao .form-select {
+    padding: 10px;
+}
+
+.filtros {
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.filtro-categoria h4 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.filtro-categoria a {
+    font-size: 16px;
+    font-weight: 400;
+    outline: none;
+    text-decoration: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    background: $primary;
+}
+
+@media (max-width: 992px) {
+    .filtro-bloco {
+        flex-wrap: wrap;
+    }
+}
